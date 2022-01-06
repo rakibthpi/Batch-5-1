@@ -6,7 +6,7 @@ body {
 h1 {
     padding: 4px 0;
     margin: 0;
-    font-size: 45px;
+    font-size: 50px;
 }
 
 p {
@@ -14,6 +14,8 @@ p {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     line-height: 1.6;
+    margin: 0;
+    padding: 0;
 }
 
 #btn_btn_style {
@@ -25,6 +27,7 @@ p {
     text-decoration: none;
     font-size: 16px;
     text-transform: capitalize;
+    margin: 30px 0;
 }
 
 .rakib_left_heading_tag {
@@ -63,3 +66,124 @@ p {
 
 /* Rakib area end  */
 /* Mission area start  */
+.mission_main_area_start {
+    padding-bottom: 70px;
+}
+
+.mission_main_text_area h1 {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.mission_flex_main_area {
+    display: flex;
+}
+
+.mission_single_item_area {
+    width: 33%;
+    margin: 10px 20px;
+    padding: 30px 40px;
+}
+
+#mission_second_section1 {
+    background-color: #EEF6F7;
+    border-radius: 14px;
+}
+
+#mission_second_section3 {
+    background-color: #FFF4D6;
+    border-radius: 14px;
+}
+
+#mission_second_section2 {
+    background-color: #eecfcf;
+    border-radius: 14px;
+}
+
+.mission_single_item_area img {
+    width: auto;
+    height: 140px;
+    object-fit: cover;
+}
+
+/* Develop main area start  */
+
+
+.develop_main_text_area {
+    display: flex;
+    align-items: center;
+    row-gap: 40px;
+    column-gap: 60px;
+}
+
+.develop_main_img_area {
+    width: 40%;
+}
+
+.develop_main_text_right_area {
+    width: 58%;
+}
+
+.develop_main_img_area img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.develop_main_img_area2 {
+    /* text-align: right; */
+}
+
+.extra_img_area {
+    background: url('images/shape-1.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.extra_left_img {
+    background: url('images/shape-1.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.devlop_main_area2 {
+    padding: 80px 0;
+}
+
+/* app area start  */
+.app_main_area>h1 {
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.app_flex_main_area {
+    display: flex;
+    align-items: center;
+    column-gap: 70px;
+}
+
+.app_letf_main_area {
+    width: 40%;
+}
+
+.app_letf_main_area img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.app_right_main_area {
+    width: 60%;
+}
+
+/* footer main area start  */
+.footer_main_area {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.footer_main_area h1 {
+    font-family: 'Lobster', cursive;
+}
